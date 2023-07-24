@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
 }
+
 header {
     background-color: var(--cor1);
     text-align: center;
@@ -78,5 +79,123 @@ header > nav > a {
     text-decoration: none;
     padding-left: 60px;
     font-family: var(--fonte0);
+    font-size: 0.9em;
 }
+
+body {
+    background-color: var(--cor1);
+}
+
+section {
+    font-family: var(--fonte0);
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 100px;
+  
+}
+
+section > h1 {
+    font-size: 2em;
+    max-width: 800px;
+}
+
+section > p {
+    color: var(--cor0);
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+section > img {
+    max-width: 900px;
+}
+
+section > h2 {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    font-size: 3em;
+}
+
+section > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+section > p > a {
+    color: var(--cor0);
+    font-size: 1em;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 20px;
+    padding-top: 35px;
+    max-width: 600px;
+}
+
+ul > li {
+    padding-bottom: 15px;
+}
+
+ul > li > a {
+    font-family: var(--fonte0);
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.74);
+}
+
+section.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-attachment: fixed;
+}
+
+section#img01 {
+    background-image: url(../imagens/transferir.jpg);
+    background-position: left center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(https://images2.alphacoders.com/467/467368.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#login {
+    background-color: var(--cor2);
+    width: 380px;
+    height: 215px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(29, 29, 29, 0.425);
+}
+
+section#login > div#forumlario {
+    display: block;
+}
+
+div#formulario > h1 {
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+div#formulario > p {
+    max-width: 400px;
+    padding-bottom: 15px;
+}
+
+form > div.campo {
+    background-color: var(--cor0);
+    border: 2px solid var(--cor0);
+    width: 90%;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+
 
