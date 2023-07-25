@@ -13,7 +13,13 @@
     --fonte0: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,27 +95,22 @@ body {
 section {
     font-family: var(--fonte0);
     color: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     padding-left: 100px;
-  
+   
 }
 
-section > h1 {
-    font-size: 2em;
-    max-width: 800px;
+.imagem {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
-section > p {
-    color: var(--cor0);
-    font-weight: bolder;
-    font-size: 1.2em;
-    padding-bottom: 10px;
-}
+section > a > img {
+   max-width: 550px;
+   padding: 20px;
+   border-radius: 30px;
 
-section > img {
-    max-width: 900px;
 }
 
 section > h2 {
@@ -118,22 +119,34 @@ section > h2 {
     font-size: 3em;
 }
 
-section > h1 > a {
+#subtitles {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    max-height: 120px;
+    
+}
+
+#subtitles > h1 > a {
     text-decoration: none;
+    font-size: 1.2em;
+    max-width: 700px;
     color: white;
 }
 
-section > p > a {
+#subtitles > p > a {
+    font-weight: bolder;
     color: var(--cor0);
-    font-size: 1em;
-    padding-bottom: 10px;
+    font-size: 1.2em;
+    padding-right: 300px;
+    padding-left: 70px;
     text-decoration: none;
 }
 
 ul {
-    padding-left: 20px;
+    display: block;
     padding-top: 35px;
-    max-width: 600px;
+    max-width: 400px;
 }
 
 ul > li {
@@ -144,7 +157,7 @@ ul > li > a {
     font-family: var(--fonte0);
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.74);
 }
 
